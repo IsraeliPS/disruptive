@@ -1,0 +1,26 @@
+.btn{
+    background-color: $primary-700;
+    &:hover{
+        transition: background-color 0.5s ease-in-out;
+        background-color: $primary-800;
+        color:$info
+    }
+    &:active{
+        background-color: $primary-600;
+    }
+
+    color:$white;
+}
+
+.btn-warning, .btn-danger{
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.btn-logout{
+    background-color: $gray-500;
+    &:hover{
+        transition: background-color 0.5s ease-in-out;
+        background-color: $gray-400;
+    }
+}

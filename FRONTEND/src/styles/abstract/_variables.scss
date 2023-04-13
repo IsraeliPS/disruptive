@@ -1,0 +1,49 @@
+// breakpoints
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+$extra-extra-large: 1400px;
+$extra-4k: 2560px;
+
+//fonts
+$font-poppins: 'Poppins', sans-serif;
+$font-open-sans: 'Open Sans', sans-serif;
+
+//colors
+$white: #ffffff;
+$black: #000000;
+
+//alerts
+
+$default-success: #357e36;
+$hover-light-success: #44A246;
+$active-dark-success: #265A26;
+$light-success:lighten($color: #357e36, $amount: 20%);
+
+$default-error: #B42918;
+$hover-light-error: #E0301F;
+$active-dark-error: #9D2315;
+$light-error:lighten($color: #B42918, $amount: 18%);
+
+$default-warning: #E8CE31;
+$light-warning: #F1DE75;
+$dark-warning: #CFB317;
+
+
+//palette
+$primary: #C3B6F2;
+$primary-900:#4D0974;
+$primary-800:#463A8C;
+$primary-700:#695BAE;
+$primary-600:#9385D0;
+$primary-500:#C3B6F2;
+$primary-400:#D4C9F7;
+
+$gray-900:#464B59;
+$gray-500:#464B59;
+$gray-400:#82899B;
+$brown-900:#A68953;
+
+$info:#F2C49B;
+$info-500:#A68953;

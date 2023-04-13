@@ -1,0 +1,21 @@
+.form {
+  .form-floating {
+    width: 300px;
+    input,
+    textarea {
+      width: 300px;
+      margin: auto;
+    }
+  }
+}
+.form-check .form-check-input {
+  margin: 5px;
+  width: 20px;
+}
+
+.combosModal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

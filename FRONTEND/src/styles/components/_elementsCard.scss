@@ -1,0 +1,74 @@
+.containerVideos {
+  background-color: rgb(160, 130, 94);
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: row;
+}
+
+.card {
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  background: linear-gradient(
+    196deg,
+    rgba(232, 116, 49, 1) 0%,
+    rgba(255, 255, 255, 0.8047321428571429) 100%
+  );
+}
+
+.imageCard {
+  @extend .card;
+
+  width: 150px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  p {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(9, 7, 126);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px;
+  }
+  .imageArchivo {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+  }
+}
+
+.videoCard {
+  @extend .card;
+  width: 180px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  p {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: justify;
+  }
+}
+
+.textoCard {
+  @extend .card;
+  width: 150px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  p {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(9, 7, 126);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px;
+  }
+}

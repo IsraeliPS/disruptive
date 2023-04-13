@@ -2,7 +2,6 @@
 
 ### Exercise carried out with React, Mysql and Node technologies .
 
-
 ## Installation
 
 ---
@@ -15,13 +14,4 @@ $ cd testBackendDisruptive
 $ cd backEnd
 $ yarn install
 $ yarn start
-```
-
-### in another terminal
-
-```
-$ cd testBackendDisruptive
-$ cd frontEnd
-$ yarn install
-$ yarn run dev
 ```

@@ -1,0 +1,34 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .form-floating {
+        width: 100%;
+    }
+    input, select {
+        border-radius: 8px;
+        background-color: $primary-400;
+        border: none;
+        width: 100%;
+        &:focus {
+            background-color: $primary-400;
+        }
+    }
+    label, p {
+         color: $gray-500;
+    }
+}
+
+// inputs generals
+.form-floating {
+    input, textarea {
+        border-radius: 8px;
+        background-color: $primary-400;
+        border: none;
+        width: 100%;
+        &:focus {
+            background-color: $primary-400;
+        }
+    }
+}

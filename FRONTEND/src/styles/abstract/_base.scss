@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $font-poppins;
+    background-color: $gray-400;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: $font-poppins;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 36px;
+    @include responsive($large) {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+
+h3,h4,h5,h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p, a {
+    font-family: $font-open-sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
