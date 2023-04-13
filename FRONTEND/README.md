@@ -9,7 +9,7 @@
 A little intro about the installation.
 
 ```
-$ git clone https://github.com/IsraeliPS/testBackendDisruptive.git
+$ git clone https://github.com/IsraeliPS/disruptive.git
 $ cd testBackendDisruptive
 $ cd testBackendDisruptive
 $ cd frontEnd
